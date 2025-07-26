@@ -1,0 +1,25 @@
+// Chinese translations for the mobile app.
+export default {
+  appTitle: '好奇探索',
+  login: '登录',
+  signup: '注册',
+  email: '邮箱',
+  password: '密码',
+  displayName: '显示名称',
+  haveAccount: '已有账户？',
+  noAccount: '没有账户？',
+  signIn: '登录您的账户',
+  createAccount: '创建新账户',
+  exploreMore: '探索更多',
+  points: '积分',
+  badges: '徽章',
+  topics: '主题',
+  loading: '加载中…',
+  deeperPrompt: '深入问题',
+  dashboard: '面板',
+  logout: '退出',
+  language: '语言',
+  chinese: '中文',
+  english: 'English',
+  loginToExplore: '请登录后再探索更多'
+};

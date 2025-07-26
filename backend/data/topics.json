@@ -1,0 +1,87 @@
+[
+  {
+    "id": 1,
+    "title_en": "Climate Change",
+    "title_zh": "气候变化",
+    "description_en": "Understand the causes and impacts of global climate change and explore ways to mitigate its effects.",
+    "description_zh": "了解全球气候变化的原因和影响，并探索减缓其影响的方法。",
+    "deeperPrompts_en": [
+      "Explain how greenhouse gases contribute to global warming.",
+      "Discuss the role of renewable energy in reducing carbon emissions.",
+      "What can individuals do to reduce their carbon footprint?"
+    ],
+    "deeperPrompts_zh": [
+      "解释温室气体如何导致全球变暖。",
+      "讨论可再生能源在减少碳排放中的作用。",
+      "个人可以做些什么来减少自己的碳足迹？"
+    ]
+  },
+  {
+    "id": 2,
+    "title_en": "Artificial Intelligence",
+    "title_zh": "人工智能",
+    "description_en": "Explore the basics of AI, its applications in everyday life, and the ethical considerations surrounding its use.",
+    "description_zh": "探索人工智能的基础知识、它在日常生活中的应用以及围绕其使用的伦理考量。",
+    "deeperPrompts_en": [
+      "Describe the difference between narrow AI and general AI.",
+      "What are some potential benefits of AI in healthcare?",
+      "Discuss ethical concerns related to AI decision‑making."
+    ],
+    "deeperPrompts_zh": [
+      "描述狭义人工智能和通用人工智能的区别。",
+      "人工智能在医疗领域有哪些潜在益处？",
+      "讨论与人工智能决策相关的伦理问题。"
+    ]
+  },
+  {
+    "id": 3,
+    "title_en": "Space Exploration",
+    "title_zh": "太空探索",
+    "description_en": "Discover the history of space exploration, recent missions, and what lies ahead for humanity beyond Earth.",
+    "description_zh": "了解太空探索的历史、近期任务以及人类在地球之外的未来。",
+    "deeperPrompts_en": [
+      "What are the primary objectives of NASA's Artemis program?",
+      "Discuss the significance of the James Webb Space Telescope.",
+      "How do private companies contribute to modern space exploration?"
+    ],
+    "deeperPrompts_zh": [
+      "NASA的阿耳忒弥斯计划的主要目标是什么？",
+      "讨论詹姆斯·韦伯空间望远镜的重要性。",
+      "私营公司如何为现代太空探索做出贡献？"
+    ]
+  },
+  {
+    "id": 4,
+    "title_en": "Ocean Conservation",
+    "title_zh": "海洋保护",
+    "description_en": "Learn about the vital role oceans play in our ecosystem and ways to protect marine life and habitats.",
+    "description_zh": "了解海洋在生态系统中的重要作用，以及保护海洋生命和栖息地的方法。",
+    "deeperPrompts_en": [
+      "What causes ocean acidification and why is it a problem?",
+      "Discuss the impact of plastic pollution on marine life.",
+      "How can marine protected areas help preserve biodiversity?"
+    ],
+    "deeperPrompts_zh": [
+      "是什么导致了海洋酸化，为什么它是一个问题？",
+      "讨论塑料污染对海洋生物的影响。",
+      "海洋保护区如何帮助保护生物多样性？"
+    ]
+  },
+  {
+    "id": 5,
+    "title_en": "Renewable Energy",
+    "title_zh": "可再生能源",
+    "description_en": "Explore different types of renewable energy sources and how they contribute to a sustainable future.",
+    "description_zh": "探索不同类型的可再生能源及其如何促进可持续未来。",
+    "deeperPrompts_en": [
+      "Compare the advantages and disadvantages of solar and wind power.",
+      "What is the role of energy storage in renewable energy systems?",
+      "Discuss the potential of tidal energy as a renewable resource."
+    ],
+    "deeperPrompts_zh": [
+      "比较太阳能和风能的优缺点。",
+      "能源储存系统在可再生能源系统中扮演什么角色？",
+      "讨论潮汐能作为一种可再生资源的潜力。"
+    ]
+  }
+]
