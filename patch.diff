@@ -1,0 +1,21 @@
+This patch introduces a new landing and interactive planet experience for both the web and mobile clients.
+
+## Web changes
+
+1. Added `web/src/components/IntroPage.jsx` – new landing page with a welcome message, description, big Start button, and login/signup links.
+2. Added `web/src/components/PlanetPage.jsx` – interactive planet page with clickable grass, sand, and star; prompts users with open questions; adds labels to the planet; shows a message when the planet is full.
+3. Created `web/src/App.jsx` – updated routing to use the new intro and planet pages, preserving login/signup/dashboard routes.
+4. Added `web/src/locales/en.js` and `web/src/locales/zh.js` – updated locale files with new keys (`introTitle`, `introDescription`, `start`, `grassPrompt`, `sandPrompt`, `starPrompt`, `yourAnswer`, `submit`, `planetFull`) while retaining all previous translations.
+5. Added `web/src/main.jsx` and `web/src/index.css` – entry point and base styles for the React web app.
+6. Added `web/index.html` – minimal HTML file to mount the React app.
+
+## Mobile changes
+
+1. Added `mobile/src/components/IntroScreen.js` – mirrors the web intro page for React Native.
+2. Added `mobile/src/components/PlanetScreen.js` – simplified interactive planet screen for mobile; allows answering prompts and adding labels.
+3. Added placeholder screens: `DashboardScreen.js`, `TopicDetailScreen.js`, `LoginScreen.js`, `SignupScreen.js` – stubs so navigation works without errors.
+4. Added `mobile/App.js` – updated navigation stack to include the new intro and planet screens alongside existing routes.
+5. Added `mobile/src/locales/en.js` and `mobile/src/locales/zh.js` – locale files with translations for new keys, matching the web.
+6. Added `mobile/src/contexts/AuthContext.js` and `mobile/src/contexts/TranslationContext.js` – minimal context implementations for authentication and translation in mobile.
+
+To apply these changes, place the new files into the appropriate folders in your project and update any build configuration if needed.
